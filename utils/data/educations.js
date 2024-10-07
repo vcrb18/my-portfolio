@@ -1,20 +1,14 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    title: "Pontificia Universidad Católica de Chile",
+    duration: "2019 - 2024",
+    institution: "Ingeniería Civil Industrial con Diploma en Computación.",
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
+    title: "Colegio Alemán de Santiago",
+    duration: "2007 - 2018",
+    institution: "Enseñanza Básica y Media",
   },
-  {
-    id: 3,
-    title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
-  }
-]
+];
