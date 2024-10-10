@@ -27,7 +27,6 @@ function ContactWithCaptcha() {
   };
 
   const handleSendMail = async (e) => {
-    console.log("Send mail with captcha");
     e.preventDefault();
     if (!captcha) {
       toast.error("Please complete the captcha!");

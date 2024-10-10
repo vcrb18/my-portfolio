@@ -21,7 +21,6 @@ function ContactWithoutCaptcha() {
   };
 
   const handleSendMail = async (e) => {
-    console.log("Send mail withOUT captcha");
     e.preventDefault();
     if (!userInput.email || !userInput.message || !userInput.name) {
       setError({ ...error, required: true });
