@@ -1,13 +1,9 @@
-// @flow strict
-
 import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
 import Link from "next/link";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
-import { FaFacebook, FaTwitterSquare } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
-import { SiLeetcode } from "react-icons/si";
 
 function HeroSection() {
   return (
@@ -98,16 +94,18 @@ function HeroSection() {
                 <span className=" text-white">skills:</span>
                 <span className="text-gray-400">{`['`}</span>
                 <span className="text-amber-300">
-                  I don't find so useful to list them all as people normally do
+                  I don&apos;t find so useful to list them all as people
+                  normally do
                 </span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">
-                  I've played with a lot of technologies
+                  I&apos;ve played with a lot of technologies
                 </span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">
                   I can learn a new skill fast
                 </span>
+                <span className="text-gray-400">{`']`}</span>
               </div>
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">
