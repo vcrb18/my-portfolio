@@ -9,7 +9,8 @@ function Footer() {
         </div>
         <div className="flex flex-col md:flex-row items-center justify-between">
           <p className="text-sm">
-            Hecho con ❤️ ( la versión final no está lista aún )
+            Siempre quise tener un portafolio, pero siento que está muy
+            sencillo, ya lo voy a mejorar.
           </p>
         </div>
       </div>

@@ -15,7 +15,7 @@ export const experiences = [
     id: 3,
     title: "Emprendedor",
     company:
-      "Quise emprender y después de recopilar mucha información decidí que no era el momento.",
+      "Quise emprender, pero después de recopilar bastante información, hablar con hartas personas y buenos mentores, decidí que no era el momento.",
     duration: "Jul 2024 - Sep 2024",
   },
 ];
